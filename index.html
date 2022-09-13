@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>MoneyCalculator</title>
+</head>
+
+<body>
+    <section class="hero">
+        <img src="whiteback.png" alt="" class="parallax">
+        <div class="text-wrapper">
+            <h1 class="headline">Fuel</h1>
+            <h2 class="sub-headline">This calculator can estimate fuel cost according to the distance of a trip, the fuel efficiency of the car, and the price of gas</h2>
+            <a href="#clickhere">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Click here
+            </a>
+        </div>
+    </section>
+
+    <section class="overflow">
+        <div class="container">
+            <h1 id="clickhere">Calculator</h1>
+            <div class="inputs">
+                <input type="text" id="n1" placeholder="Distance" class="in-1">
+
+                <input type="text" id="n2" placeholder="Milage" class="in-1">
+
+                <input type="text" id="n3" placeholder="Fuel Rate" class="in-1">
+            </div>
+
+
+            <div class="btns">
+
+                <h11 onclick="calc()" class="button"> Click</h11>
+
+                <button onClick="reset()">Reset</button>
+            </div>
+
+
+            <h2>You can fill up fuel of Rs </h2>
+            <div class="last">
+                <input type="text" id="result" class="in-1">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
